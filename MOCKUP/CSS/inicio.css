@@ -1,0 +1,7 @@
+/*Estilo para el inicio*/
+
+body{
+    background-image: url(../IMG/inicio/bg_Inicio.gif);
+    background-size: cover;
+    background-position: center;
+}

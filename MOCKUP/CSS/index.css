@@ -1,7 +1,18 @@
 /*Estilo para la portada*/
 
+body{
+    background-image: url(../IMG/portada/bg_Portada.gif);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
 /*LOGO*/
-/* Muy leve animación*/
+div img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
 
 /*BOTON*/
 /* Muy leve animación en hover que simula flotar */
