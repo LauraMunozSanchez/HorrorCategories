@@ -1,18 +1,41 @@
 /*Estilo para la portada*/
 
-body{
-    background-image: url(../IMG/portada/bg_Portada.gif);
-    background-size: cover;
-    background-position: center;
-    box-sizing: border-box;
-}
-/*LOGO*/
-div img{
-    display: block;
-    margin: 0 auto;
-    width: 50%;
+* {
+    margin: 0; /* Elimina el margen por defecto  */
+    padding: 0; /* Elimina el padding por defecto  */
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el tamaño total del elemento */
 }
 
+body{
+    background-image: url(../IMG/portada/bg_Portada.gif); /* Imagen de fondo */
+    background-size: cover; /* Tamaño de la imagen de fondo, cover: La imagen cubre todo el área */
+    background-position: center; /* Posición de la imagen de fondo, center: Centra la imagen */
+}
+
+/*LOGO*/
+div img{
+    display: block; /* Muestra la imagen como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 40%; /* Ajusta el tamaño de la imagen al 40% del ancho del contenedor */
+
+    /* Animación de flotación */
+    animation: float 2s ease-in-out infinite; /* nombre de la animación, duración, tipo de easing, repeticiones */
+                                              /* ease-in-out: La animación comienza lentamente, acelera y luego desacelera */
+}
 
 /*BOTON*/
 /* Muy leve animación en hover que simula flotar */
+
+
+/*ANIMACIONES*/
+@keyframes float { /* Animación que simula flotar */
+    0% {
+        transform: translateY(0); /* Posición inicial, sin movimiento */
+    }
+    50% {
+        transform: translateY(-10px); /* En la mitad de la animación, la imagen se mueve hacia arriba 10 píxeles */
+    }
+    100% {
+        transform: translateY(0); /* Al final de la animación, la imagen vuelve a su posición original */
+    }
+}

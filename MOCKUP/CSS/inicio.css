@@ -1,7 +1,77 @@
+/* VARIABLES COLORES */
+:root {
+    --verdePrincipal: #5DA500;
+    --rojoPrincipal: #F60000;
+
+    --azulBackground: #001416;
+    --negro: #000;
+}
+
+/* ---------------------------------------------------------------- */
+
 /*Estilo para el inicio*/
 
-body{
-    background-image: url(../IMG/inicio/bg_Inicio.gif);
-    background-size: cover;
-    background-position: center;
+* {
+    margin: 0; /* Elimina el margen por defecto  */
+    padding: 0; /* Elimina el padding por defecto  */
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el tamaño total del elemento */
 }
+
+body{
+    background-image: url(../IMG/inicio/bg_Inicio.gif); /* Imagen de fondo */
+    background-size: cover; /* Tamaño de la imagen de fondo, cover: La imagen cubre todo el área */
+    background-position: center; /* Posición de la imagen de fondo, center: Centra la imagen */
+}
+
+/* ----------------- NAV ------------------------------------------------------------- */
+
+nav{
+    text-align: center; /* Centra el contenido del nav */
+    padding: 20px; /* Agrega espacio alrededor del contenido del nav */
+    background-color: rgb(from var(--azulBackground) r g b / 0.5); /* Color de fondo con poca opacidad*/ 
+    border-bottom: 5px solid var(--verdePrincipal); /* Agrega un borde inferior al nav */
+}
+
+ul {
+    list-style: none; /* Elimina los puntos de la lista */
+}
+
+li:not(#search) { /* Aplica estilos a los elementos de la lista excepto al que tiene el id "search" */
+    display: inline-block; /* Muestra los elementos como bloques en línea */
+    /* Diferencia entre inline-block y block : inline-block permite que los elementos estén en la misma línea pero mantienen sus propiedades de bloque, mientras que block fuerza a que cada elemento ocupe toda la línea */
+
+    background-color: var(--negro);
+    padding: 15px 20px; /* Agrega espacio alrededor del contenido de los elementos de la lista */
+}
+
+li:not(#search):hover{
+    border: 1px solid var(--verdePrincipal); /* Agrega un borde blanco al pasar el mouse por encima de los elementos de la lista */
+    background-color: var(--azulBackground);
+    padding: 13px 18px; /* Reduce el padding para compensar el borde y evitar que el nav se haga más grande */
+}
+
+/*Enlaces*/
+li{
+    width: 50%;
+}
+
+li a {
+    display: block; /* Muestra los enlaces como bloques */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    padding: 10px 20px; /* Agrega espacio alrededor del texto de los enlaces */
+}
+
+/* Barra de búsqueda */
+
+li div{
+    background-color: aliceblue;
+}
+
+li div div {
+    display: inline-block; /* Muestra los elementos como bloques en línea */
+    padding: 5px; /* Agrega espacio alrededor del contenido de la barra de búsqueda */
+
+    background-color: violet;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
