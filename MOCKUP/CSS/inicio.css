@@ -51,10 +51,6 @@ li:not(#search):hover{
 }
 
 /*Enlaces*/
-li{
-    width: 50%;
-}
-
 li a {
     display: block; /* Muestra los enlaces como bloques */
     text-decoration: none; /* Elimina el subrayado de los enlaces */
@@ -63,8 +59,14 @@ li a {
 
 /* Barra de búsqueda */
 
+#search{
+    width: 50%;
+    height: 40px;
+}
+
 li div{
     background-color: aliceblue;
+    height: 40px;
 }
 
 li div div {
