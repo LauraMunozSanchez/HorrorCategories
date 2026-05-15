@@ -27,7 +27,7 @@ body{
 
 nav{
     text-align: center; /* Centra el contenido del nav */
-    padding: 20px; /* Agrega espacio alrededor del contenido del nav */
+    padding: 15px; /* Agrega espacio alrededor del contenido del nav */
     background-color: rgb(from var(--azulBackground) r g b / 0.5); /* Color de fondo con poca opacidad*/ 
     border-bottom: 5px solid var(--verdePrincipal); /* Agrega un borde inferior al nav */
 }
@@ -60,20 +60,11 @@ li a {
 /* Barra de búsqueda */
 
 #search{
-    width: 50%;
-    height: 40px;
+    width: 50%; /* Ancho de la barra de búsqueda */
+    height: 40px; /* Altura de la barra de búsqueda */
+    margin:  15px auto; /*Centra la barra de búsqueda */
+
 }
 
-li div{
-    background-color: aliceblue;
-    height: 40px;
-}
-
-li div div {
-    display: inline-block; /* Muestra los elementos como bloques en línea */
-    padding: 5px; /* Agrega espacio alrededor del contenido de la barra de búsqueda */
-
-    background-color: violet;
-}
 
 /*---------------------------------------------------------------------------------------------------------------*/
