@@ -10,7 +10,9 @@
     <title> ✡ Horror Categories ✡ | Inicio </title>
 </head>
 <body>
-    <nav>
+    <!-- HEADER -->
+    <header>
+        <nav>
         <ul>
             <li><a href="./categorias/categorias.html">categorías</a></li>
             <li><a href="./cineYLiteratura/cineLiteratura.html">cine y literatura</a></li>
@@ -18,13 +20,39 @@
             <li><a href="./arte/arte.html">arte</a></li>
             <li><a href="./videojuegos/videojuegos.html">videojuegos</a></li>
             <!-- busqueda -->
+            <!-- Datalist que simula el comportamiento de un campo de búsqueda con sugerencias -->
             <li id="search">
                 <form>
-                    <input type="text" id="barra" name="barra" placeholder="Buscar...">
+                    <input list="busquedas" id="barra" placeholder="Buscar...">
+                    <datalist id="busquedas">
+                        <option value="categorias">categorias</option>
+                        <option value="arte">arte</option>
+                        <option value="cine y literatura">cine y literatura</option>
+                        <option value="videojuegos">videojuegos</option>
+                        <option value="paranormal">paranormal</option>
+                        <option value="monster">monster</option>
+                        <option value="killer">killer</option>
+                        <option value="psychological">psychological</option>
+                        <option value="gore">gore</option>
+                    </datalist>
                     <button type="submit" id="botonBuscar"></button>
                 </form>
             </li>
         </ul>
     </nav>
+    </header>
+    <!-- ---------------------------------------------------------------------------------------  -->
+
+    <!-- CUERPO -->
+    
+
+    <!-- ---------------------------------------------------------------------------------------- -->
+
+    <!-- FOOTER -->
+    <footer>
+
+    </footer>
+    <!-- ---------------------------------------------------------------------------------------  -->
+
 </body>
 </html>

@@ -1,3 +1,9 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+/* ---------------------------------------------------------------- */
+
 /* VARIABLES COLORES */
 :root {
     --verdePrincipal: #5DA500;
@@ -5,11 +11,12 @@
 
     --azulBackground: #001416;
     --negro: #000;
+
+    --verdeBrillante: #a2ff28;
 }
 
 /* ---------------------------------------------------------------- */
 
-/*Estilo para el inicio*/
 
 * {
     margin: 0; /* Elimina el margen por defecto  */
@@ -30,11 +37,14 @@ nav{
     padding: 15px; /* Agrega espacio alrededor del contenido del nav */
     background-color: rgb(from var(--azulBackground) r g b / 0.5); /* Color de fondo con poca opacidad*/ 
     border-bottom: 5px solid var(--verdePrincipal); /* Agrega un borde inferior al nav */
+    font-family: "Oswald";
+    font-size: 30px;
 }
 
 ul {
     list-style: none; /* Elimina los puntos de la lista */
 }
+
 
 li:not(#search) { /* Aplica estilos a los elementos de la lista excepto al que tiene el id "search" */
     display: inline-block; /* Muestra los elementos como bloques en línea */
@@ -55,16 +65,54 @@ li a {
     display: block; /* Muestra los enlaces como bloques */
     text-decoration: none; /* Elimina el subrayado de los enlaces */
     padding: 10px 20px; /* Agrega espacio alrededor del texto de los enlaces */
+    color: var(--rojoPrincipal);
 }
 
 /* Barra de búsqueda */
 
 #search{
-    width: 50%; /* Ancho de la barra de búsqueda */
+    width: 20%; /* Ancho de la barra de búsqueda */
     height: 40px; /* Altura de la barra de búsqueda */
     margin:  15px auto; /*Centra la barra de búsqueda */
+}
+
+form{
+    white-space: nowrap; /* Evita los saltos de línea */
+}
+
+input[list] {
+    width: 100%;
+    height: 40px;
+    border: solid 3px var(--verdePrincipal); /* Borde de la barra de búsqueda */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: rgb(255, 255, 255, 0.1); /* Color de fondo con opacidad */
+    color: var(--verdeBrillante); /* Color del texto de la barra de búsqueda */
+    padding: 10px; /* Agrega espacio dentro de la barra de búsqueda */
 
 }
 
+input[list]::placeholder {
+    color: var(--verdeBrillante); /* Color del texto del placeholder */
+    font-family: "Oswald";
+}
+
+input[list]:focus { /* pseudoclase que aplica estilos a un elemento web (como un botón o un campo de texto) cuando este se encuentra seleccionado y listo para recibir interacción. */
+    outline: none; /* Elimina el borde de enfoque predeterminado */
+    background-color: rgb(255, 255, 255, 0.3); /* Cambia el color de fondo al enfocar la barra de búsqueda */
+}
+
+input[list]:hover {
+    background-color: rgb(255, 255, 255, 0.3); /* Cambia el color de fondo al pasar el mouse por encima de la barra de búsqueda */
+}
+
+button {
+    width: 50px; /* Ancho del botón de búsqueda */
+    height: 40px; /* Altura del botón de búsqueda */
+    border-radius: 5px;
+
+    vertical-align: middle; /* Alinea el botón verticalmente con el campo de texto */
+}
 
 /*---------------------------------------------------------------------------------------------------------------*/
+
+/*Estilo para el inicio*/
