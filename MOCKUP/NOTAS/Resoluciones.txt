@@ -1,0 +1,3 @@
+Casa: 1920 x 1080
+Clase: 1360 x 768
+Clase SMR2: 1280 x 1024

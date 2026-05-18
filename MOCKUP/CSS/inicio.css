@@ -1,22 +1,27 @@
+/*𝕀ℕ𝕀ℂ𝕀𝕆*/
+
 /* FUENTES */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
-
-/* ---------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------- */
 
 /* VARIABLES COLORES */
 :root {
     --verdePrincipal: #5DA500;
     --rojoPrincipal: #F60000;
+    --rojoOscuro: #500000;
 
     --azulBackground: #001416;
     --negro: #000;
 
     --verdeBrillante: #a2ff28;
+    --rojoBrillante: #ff1010;
+
+    --naranjaBrillo:  #ff5c3f;
 }
 
 /* ---------------------------------------------------------------- */
 
+/* ESTILOS GENERALES */
 
 * {
     margin: 0; /* Elimina el margen por defecto  */
@@ -25,55 +30,77 @@
 }
 
 body{
-    background-image: url(../IMG/inicio/bg_Inicio.gif); /* Imagen de fondo */
-    background-size: cover; /* Tamaño de la imagen de fondo, cover: La imagen cubre todo el área */
-    background-position: center; /* Posición de la imagen de fondo, center: Centra la imagen */
+    background-image: url(../IMG/inicio/bg_Inicio.gif); 
+    background-size: cover; 
+    background-position: center;
 }
 
-/* ----------------- NAV ------------------------------------------------------------- */
-
+/* NAV -----------------COPIAR Y PEGAR---------------------------------------------------------------*/
 nav{
-    text-align: center; /* Centra el contenido del nav */
-    padding: 15px; /* Agrega espacio alrededor del contenido del nav */
+    padding: 15px;
+    text-align: center;
+
+    border-bottom: 5px solid var(--verdePrincipal);
     background-color: rgb(from var(--azulBackground) r g b / 0.5); /* Color de fondo con poca opacidad*/ 
-    border-bottom: 5px solid var(--verdePrincipal); /* Agrega un borde inferior al nav */
+
     font-family: "Oswald";
     font-size: 30px;
+
+    user-select: none; /*Evita que el texto sea seleccionable */
 }
 
 ul {
     list-style: none; /* Elimina los puntos de la lista */
 }
 
-
-li:not(#search) { /* Aplica estilos a los elementos de la lista excepto al que tiene el id "search" */
+li:not(#search,#logo) { /* Aplica estilos a los elementos de la lista excepto a los que tienen los ids indicados entre paréntesis */
     display: inline-block; /* Muestra los elementos como bloques en línea */
     /* Diferencia entre inline-block y block : inline-block permite que los elementos estén en la misma línea pero mantienen sus propiedades de bloque, mientras que block fuerza a que cada elemento ocupe toda la línea */
-
+    padding: 15px 20px;
     background-color: var(--negro);
-    padding: 15px 20px; /* Agrega espacio alrededor del contenido de los elementos de la lista */
 }
 
-li:not(#search):hover{
-    border: 1px solid var(--verdePrincipal); /* Agrega un borde blanco al pasar el mouse por encima de los elementos de la lista */
+li:not(#search,#logo):hover{
+    padding: 12px 17px; /* Reduce el padding para compensar el borde y evitar que el nav se haga más grande */
+    border: 3px double var(--verdePrincipal);
+    box-shadow: 0 0 5px var(--verdeBrillante); /* Simula efecto neon */;
     background-color: var(--azulBackground);
-    padding: 13px 18px; /* Reduce el padding para compensar el borde y evitar que el nav se haga más grande */
+}
+
+/* stay -- Un id para darle un estilo especial al botón que corresponde a la página donde nos encontramos */
+
+#logo {
+    margin: 15px auto;
+    width: 100px;
+    height: 100px;
 }
 
 /*Enlaces*/
-li a {
+li a, li a:visited {
     display: block; /* Muestra los enlaces como bloques */
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
     padding: 10px 20px; /* Agrega espacio alrededor del texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
     color: var(--rojoPrincipal);
 }
 
-/* Barra de búsqueda */
 
+li a:hover {
+    color: var(--rojoBrillante);
+    text-shadow: 0 0 10px var(--naranjaBrillo); /* Simula efecto neon */
+    /* Sintaxis: desplazamiento-horizontal desplazamiento-vertical desplazamiento-de-foco color */
+}
+
+li a:active {
+    color: var(--naranjaBrillo);
+    text-shadow: 0 0 10px var(--naranjaBrillo); /* Simula efecto neon */
+    /* Sintaxis: desplazamiento-horizontal desplazamiento-vertical desplazamiento-de-foco color */
+}
+
+/* Barra de búsqueda */
 #search{
-    width: 20%; /* Ancho de la barra de búsqueda */
-    height: 40px; /* Altura de la barra de búsqueda */
-    margin:  15px auto; /*Centra la barra de búsqueda */
+    width: 20%; 
+    height: 40px; 
+    margin: 15px auto; 
 }
 
 form{
@@ -83,36 +110,43 @@ form{
 input[list] {
     width: 100%;
     height: 40px;
-    border: solid 3px var(--verdePrincipal); /* Borde de la barra de búsqueda */
-    border-radius: 5px; /* Bordes redondeados */
-    background-color: rgb(255, 255, 255, 0.1); /* Color de fondo con opacidad */
-    color: var(--verdeBrillante); /* Color del texto de la barra de búsqueda */
-    padding: 10px; /* Agrega espacio dentro de la barra de búsqueda */
-
+    border: solid 3px var(--verdePrincipal);
+    border-radius: 5px; 
+    background-color: rgb(255, 255, 255, 0.1);
+    color: var(--verdeBrillante); 
+    padding: 10px;
 }
 
 input[list]::placeholder {
-    color: var(--verdeBrillante); /* Color del texto del placeholder */
+    color: var(--verdeBrillante); 
     font-family: "Oswald";
 }
 
 input[list]:focus { /* pseudoclase que aplica estilos a un elemento web (como un botón o un campo de texto) cuando este se encuentra seleccionado y listo para recibir interacción. */
     outline: none; /* Elimina el borde de enfoque predeterminado */
-    background-color: rgb(255, 255, 255, 0.3); /* Cambia el color de fondo al enfocar la barra de búsqueda */
+    background-color: rgb(255, 255, 255, 0.3); 
 }
 
 input[list]:hover {
-    background-color: rgb(255, 255, 255, 0.3); /* Cambia el color de fondo al pasar el mouse por encima de la barra de búsqueda */
+    background-color: rgb(255, 255, 255, 0.3);
 }
 
 button {
-    width: 50px; /* Ancho del botón de búsqueda */
-    height: 40px; /* Altura del botón de búsqueda */
-    border-radius: 5px;
+    width: 50px;
+    height: 40px;
+    border-top-right-radius: 5px; /* Redondea solo la esquina superior derecha del botón */
+    border-bottom-right-radius: 5px; /* Redondea solo la esquina inferior derecha del botón */
+    vertical-align: bottom; /* Alinea el botón verticalmente con el campo de texto */
+    border: solid 3px var(--verdePrincipal);
+    background-color: var(--azulBackground);
+    cursor: pointer; /* Cambia el cursor */
+}
 
-    vertical-align: middle; /* Alinea el botón verticalmente con el campo de texto */
+button img{
+    width: 20px;
+    height: 20px;
 }
 
 /*---------------------------------------------------------------------------------------------------------------*/
 
-/*Estilo para el inicio*/
+/*PÁGINA DE INICIO*/
