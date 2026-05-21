@@ -51,6 +51,7 @@ nav{
 
 ul {
     list-style: none; /* Elimina los puntos de la lista */
+    text-align: center;
 }
 
 li:not(#search,#logo) { /* Aplica estilos a los elementos de la lista excepto a los que tienen los ids indicados entre paréntesis */
@@ -58,6 +59,7 @@ li:not(#search,#logo) { /* Aplica estilos a los elementos de la lista excepto a 
     /* Diferencia entre inline-block y block : inline-block permite que los elementos estén en la misma línea pero mantienen sus propiedades de bloque, mientras que block fuerza a que cada elemento ocupe toda la línea */
     padding: 15px 20px;
     background-color: var(--negro);
+    vertical-align: middle;
 }
 
 li:not(#search,#logo):hover{
@@ -67,22 +69,28 @@ li:not(#search,#logo):hover{
     background-color: var(--azulBackground);
 }
 
-/* stay -- Un id para darle un estilo especial al botón que corresponde a la página donde nos encontramos */
+/* stay (a.stay) -- Una clase o ID para darle un estilo especial al botón que corresponde a la página donde nos encontramos */
 
 #logo {
-    margin: 15px auto;
-    width: 100px;
-    height: 100px;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 0 40px; /* espacio izquierda y derecha */
+    vertical-align: middle;
 }
 
 /*Enlaces*/
-li a, li a:visited {
+li a:not(#linkLogo), li a:visited {
     display: block; /* Muestra los enlaces como bloques */
     padding: 10px 20px; /* Agrega espacio alrededor del texto de los enlaces */
     text-decoration: none; /* Elimina el subrayado de los enlaces */
     color: var(--rojoPrincipal);
 }
 
+
+#linkLogo{
+    display: block; /* Muestra los enlaces como bloques */
+}
 
 li a:hover {
     color: var(--rojoBrillante);
