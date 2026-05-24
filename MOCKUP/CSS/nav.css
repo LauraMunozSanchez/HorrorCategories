@@ -34,8 +34,6 @@ li:not(#search,#logo):hover{
     background-color: var(--azulBackground);
 }
 
-/* stay (a.stay) -- Una clase o ID para darle un estilo especial al botón que corresponde a la página donde nos encontramos */
-
 #logo {
     display: inline-block;
     width: 120px;
@@ -83,7 +81,7 @@ form{
 }
 
 input[list] {
-    width: 30%;
+    width: 20%;
     height: 40px;
     border: solid 3px var(--verdePrincipal);
     border-radius: 5px; 
