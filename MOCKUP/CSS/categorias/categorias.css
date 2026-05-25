@@ -1,0 +1,56 @@
+/* ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕒𝕤 - ℙ𝕒𝕣𝕒𝕟𝕠𝕣𝕞𝕒𝕝 */
+
+@import "variables.css";
+
+/* ESTILOS GENERALES */
+
+* {
+    margin: 0; /* Elimina el margen por defecto  */
+    padding: 0; /* Elimina el padding por defecto  */
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el tamaño total del elemento */
+}
+
+body{
+    background-color: black;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*PÁGINA DE CATEGORIAS - PARANORMAL*/
+main{
+    width: 80%;
+    margin: 1% auto; /* Centra el contenido horizontalmente */
+    align-items: center;
+    background-color: yellow; /* prueba */
+}
+
+h1{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    user-select: none; /* Evita que el texto sea seleccionable */
+}
+
+section{
+    width: 95%;
+    margin: 3% auto;
+    background-color: brown;
+}
+
+section > div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+div div{
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'oswald', sans-serif;
+    font-size: 30px;
+
+    background-color: seagreen;
+}
+
