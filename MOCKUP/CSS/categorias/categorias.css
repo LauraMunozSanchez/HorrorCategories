@@ -1,6 +1,6 @@
 /* ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕒𝕤 - ℙ𝕒𝕣𝕒𝕟𝕠𝕣𝕞𝕒𝕝 */
 
-@import "variables.css";
+@import "../variables.css";
 
 /* ESTILOS GENERALES */
 
@@ -21,7 +21,7 @@ main{
     width: 80%;
     margin: 1% auto; /* Centra el contenido horizontalmente */
     align-items: center;
-    background-color: yellow; /* prueba */
+    background-color: rgba(0, 0, 0, 0.8); /*negro transparente*/
 }
 
 h1{
@@ -36,7 +36,7 @@ h1{
 section{
     width: 95%;
     margin: 3% auto;
-    background-color: brown;
+    /*background-color: brown;*/
 }
 
 section > div{
@@ -51,6 +51,44 @@ div div{
     font-family: 'oswald', sans-serif;
     font-size: 30px;
 
-    background-color: seagreen;
+    /*background-color: seagreen;*/
 }
+
+h2{
+    text-align: center;
+    color: var(--rojoPrincipal);
+    user-select: none; 
+}
+
+img:hover{
+    animation: pulse 2s infinite;
+}
+
+#volverAtras{
+    width: 30%;
+    color: var(--rojoPrincipal);
+    text-align: center;
+    text-decoration: none;
+    font-family: times new roman, serif;
+    font-size: 18px;
+    letter-spacing: 3px; /* Agrega espacio entre las letras */
+}
+
+#volverAtras:hover{
+    text-decoration: underline;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
 
