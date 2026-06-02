@@ -1,288 +1,205 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta
-      name="description"
-      content="Página del terror paranormal en el ámbito del cine y la literatura."
-    />
-    <meta name="author" content="Laura Muñoz Sánchez" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image/png" href="../../IMG/favicon.png" />
-    <link rel="stylesheet" href="../../CSS/nav.css" />
-    <link rel="stylesheet" href="../../CSS/stay.css" />
-    <link rel="stylesheet" href="../../CSS/footer.css" />
-    <link rel="stylesheet" href="../../CSS/categorias/contenido.css" />
+  <meta name="description" content="Página del terror paranormal en el ámbito del cine y la literatura." />
+  <meta name="author" content="Laura Muñoz Sánchez" />
 
-    <title>✡ ℍ𝕠𝕣𝕣𝕠𝕣 ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕖𝕤 ✡ | ℂ𝕚𝕟𝕖 𝕐 𝕃𝕚𝕥𝕖𝕣𝕒𝕥𝕦𝕣𝕒 - ℙ𝕤𝕪𝕔𝕙𝕠𝕝𝕠𝕘𝕚𝕔𝕒𝕝</title>
-  </head>
+  <link rel="icon" type="image/png" href="../../IMG/favicon.png" />
+  <link rel="stylesheet" href="../../CSS/nav.css" />
+  <link rel="stylesheet" href="../../CSS/stay.css" />
+  <link rel="stylesheet" href="../../CSS/footer.css" />
+  <link rel="stylesheet" href="../../CSS/categorias/contenido.css" />
 
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="../categorias/categorias.html" title="Acceder a categorías"
-              >CATEGORÍAS</a
-            >
-          </li>
-          <li id="stay">
-            <a
-              href="../cineYLiteratura/cineLiteratura.html"
-              title="Acceder a cine y literatura"
-              >CINE Y LITERATURA</a
-            >
-          </li>
-          <li id="logo">
-            <a id="linkLogo" href="../inicio.html" title="Volver a la portada"
-              ><img src="../../IMG/logoNav.png" alt="Logo de Horror Categories"
-            /></a>
-          </li>
-          <!-- Solo en el inicio redirige a la portada, en las demas paginas redirige al inicio -->
-          <li><a href="../arte/arte.html" title="Acceder a arte">ARTE</a></li>
-          <li>
-            <a
-              href="../videojuegos/videojuegos.html"
-              title="Acceder a videojuegos"
-              >VIDEOJUEGOS</a
-            >
-          </li>
+  <title>✡ ℍ𝕠𝕣𝕣𝕠𝕣 ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕖𝕤 ✡ | ℂ𝕚𝕟𝕖 𝕐 𝕃𝕚𝕥𝕖𝕣𝕒𝕥𝕦𝕣𝕒 - ℙ𝕤𝕪𝕔𝕙𝕠𝕝𝕠𝕘𝕚𝕔𝕒𝕝</title>
+</head>
 
-          <!-- Barra de búsqueda -->
-          <!-- Datalist que simula el comportamiento de un campo de búsqueda con sugerencias -->
-          <li id="search">
-            <form>
-              <input list="busquedas" id="barra" placeholder="Buscar..." />
-              <datalist id="busquedas">
-                <option value="categorias">categorias</option>
-                <option value="arte">arte</option>
-                <option value="cine y literatura">cine y literatura</option>
-                <option value="videojuegos">videojuegos</option>
-                <option value="paranormal">paranormal</option>
-                <option value="monster">monster</option>
-                <option value="killer">killer</option>
-                <option value="psychological">psychological</option>
-                <option value="gore">gore</option>
-              </datalist>
-              <button type="submit" id="botonBuscar" title="Buscar">
-                <img src="../../IMG/lupaNav.png" alt="Buscar" />
-              </button>
-            </form>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="../categorias/categorias.html" title="Acceder a categorías">CATEGORÍAS</a>
+        </li>
+        <li id="stay">
+          <a href="../cineYLiteratura/cineLiteratura.html" title="Acceder a cine y literatura">CINE Y LITERATURA</a>
+        </li>
+        <li id="logo">
+          <a id="linkLogo" href="../inicio.html" title="Volver a la portada"><img src="../../IMG/logoNav.png"
+              alt="Logo de Horror Categories" /></a>
+        </li>
+        <!-- Solo en el inicio redirige a la portada, en las demas paginas redirige al inicio -->
+        <li><a href="../arte/arte.html" title="Acceder a arte">ARTE</a></li>
+        <li>
+          <a href="../videojuegos/videojuegos.html" title="Acceder a videojuegos">VIDEOJUEGOS</a>
+        </li>
 
-    <!-- CUERPO -->
-    <main>
-      <h1 class="titulo" id="arriba">PSYCHOLOGICAL</h1>
+        <!-- Barra de búsqueda -->
+        <!-- Datalist que simula el comportamiento de un campo de búsqueda con sugerencias -->
+        <li id="search">
+          <form>
+            <input list="busquedas" id="barra" placeholder="Buscar..." />
+            <datalist id="busquedas">
+              <option value="categorias">categorias</option>
+              <option value="arte">arte</option>
+              <option value="cine y literatura">cine y literatura</option>
+              <option value="videojuegos">videojuegos</option>
+              <option value="paranormal">paranormal</option>
+              <option value="monster">monster</option>
+              <option value="killer">killer</option>
+              <option value="psychological">psychological</option>
+              <option value="gore">gore</option>
+            </datalist>
+            <button type="submit" id="botonBuscar" title="Buscar">
+              <img src="../../IMG/lupaNav.png" alt="Buscar" />
+            </button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-      <p class="LoPar">
-        El terror psicológico se centra en la explotación de los miedos y
-        obsesiones del subconsciente. Es uno de los subgéneros más populares del
-        cine y la literatura.
+  <!-- CUERPO -->
+  <main>
+    <h1 class="titulo" id="arriba">PSYCHOLOGICAL</h1>
+
+    <p class="LoPar">
+      El terror psicológico se centra en la explotación de los miedos y
+      obsesiones del subconsciente. Es uno de los subgéneros más populares del
+      cine y la literatura.
+    </p>
+
+    <!-- CINE -->
+    <section class="grid">
+      <a>
+        <div class="card">
+          <iframe width="535" height="251" src="https://www.youtube.com/embed/TnafMJMlblE" title="Black Swan Trailer 2010" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <h2>Cine: Black Swan</h2>
+          <p>
+            Una bailarina cae en una espiral de obsesión, paranoia y pérdida de la
+            realidad mientras busca la perfección artística.
+          </p>
+        </div>
+      </a>
+
+      <a>
+        <div class="card">
+          <iframe width="580" height="239" src="https://www.youtube.com/embed/DzfpyUB60YY" title="Get Out Trailer"
+            frameborder="0" allowfullscreen></iframe>
+          <h2>Cine: Get Out</h2>
+          <p>
+            Un joven descubre una inquietante verdad cuando visita a la familia de
+            su novia en una aparente reunión cordial.
+          </p>
+        </div>
+      </a>
+
+      <a>
+        <div class="card">
+          <iframe width="580" height="239" src="https://www.youtube.com/embed/k5WQZzDRVtw" title="The Babadook Trailer"
+            frameborder="0" allowfullscreen></iframe>
+          <h2>Cine: The Babadook</h2>
+          <p>
+            Una madre y su hijo son atormentados por una presencia oscura surgida de
+            un misterioso libro infantil.
+          </p>
+        </div>
+      </a>
+
+      <a>
+        <div class="card">
+          <iframe width="580" height="239" src="https://www.youtube.com/embed/DzSsE5t7JNk"
+            title="Goodnight Mommy Trailer" frameborder="0" allowfullscreen></iframe>
+          <h2>Cine: Goodnight Mommy</h2>
+          <p>
+            Dos hermanos comienzan a sospechar que la mujer que regresó a casa tras
+            una cirugía no es realmente su madre.
+          </p>
+        </div>
+      </a>
+    </section>
+
+    <!-- LITERATURA -->
+    <section class="grid">
+      <a href="https://es.wikipedia.org/wiki/La_paciente_silenciosa" target="_blank">
+        <div class="card">
+          <img src="../../IMG/cineLiteratura/paciente-silenciosa.jpg" alt="La paciente silenciosa" />
+          <h2>Libro: La paciente silenciosa</h2>
+          <p>
+            Un psicoterapeuta intenta descubrir por qué una mujer dejó de hablar
+            después de asesinar a su esposo.
+          </p>
+        </div>
+      </a>
+
+      <a href="https://es.wikipedia.org/wiki/El_psicoanalista" target="_blank">
+        <div class="card">
+          <img src="../../IMG/cineLiteratura/psicoanalista.jpg" alt="El psicoanalista" />
+          <h2>Libro: El psicoanalista</h2>
+          <p>
+            Un reconocido psiquiatra recibe una amenaza que lo obliga a descubrir
+            quién busca destruir su vida.
+          </p>
+        </div>
+      </a>
+
+      <a href="https://es.wikipedia.org/wiki/Misery_(novela)" target="_blank">
+        <div class="card">
+          <img src="../../IMG/cineLiteratura/misery.jpg" alt="Misery" />
+          <h2>Libro: Misery</h2>
+          <p>
+            Un escritor queda atrapado en la casa de una admiradora obsesiva tras
+            sufrir un accidente.
+          </p>
+        </div>
+      </a>
+
+      <a href="https://es.wikipedia.org/wiki/El_extra%C3%B1o_caso_del_doctor_Jekyll_y_el_se%C3%B1or_Hyde"
+        target="_blank">
+        <div class="card">
+          <img src="../../IMG/cineLiteratura/jekyll-hyde.jpg" alt="Doctor Jekyll y Mr. Hyde" />
+          <h2>Libro: El extraño caso del doctor Jekyll y el señor Hyde</h2>
+          <p>
+            Un científico descubre una forma de separar los aspectos más oscuros de
+            su personalidad, con consecuencias aterradoras.
+          </p>
+        </div>
+      </a>
+    </section>
+
+    <a id="volverArriba" href="#arriba">VOLVER ARRIBA</a>
+    <a id="volverArriba" href="./cineLiteratura.html">VOLVER ATRÁS</a>
+  </main>
+  <!-- ---------------------------------------------------------------------------------------- -->
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <h3>HORROR CATEGORIES</h3>
+
+      <p>
+        Un recorrido por el miedo en el cine, los videojuegos, el arte y la
+        literatura.
       </p>
 
-      <!-- CINE -->
-      <section class="grid">
-        <a>
-          <div class="card">
-            <iframe
-              width="580"
-              height="239"
-              src="https://www.youtube.com/embed/sR126bwX4vQ"
-              title="Psicosis Trailer"
-              frameborder="0"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              allowfullscreen
-            ></iframe>
-            <h2>Cine: Psicosis</h2>
-            <p>
-              La perturbadora historia de Norman Bates y el misterioso motel
-              Bates, donde nada es lo que parece.
-            </p>
-          </div>
-        </a>
-        <a>
-          <div class="card">
-            <iframe
-              width="580"
-              height="239"
-              src="https://www.youtube.com/embed/6hB3S9bIaco"
-              title="El Resplandor Trailer"
-              frameborder="0"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              allowfullscreen
-            ></iframe>
-            <h2>Cine: El Resplandor</h2>
-            <p>
-              El aislamiento y la locura consumen a Jack Torrance mientras cuida
-              un hotel aparentemente embrujado.
-            </p>
-          </div>
-        </a>
-        <a>
-          <div class="card">
-            <iframe
-              width="580"
-              height="239"
-              src="https://www.youtube.com/embed/W6Mm8Sbe__o"
-              title="Black Swan Trailer"
-              frameborder="0"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              allowfullscreen
-            ></iframe>
-            <h2>Cine: Cisne Negro</h2>
-            <p>
-              Una bailarina cae en una espiral de obsesión, paranoia y pérdida
-              de la realidad.
-            </p>
-          </div>
-        </a>
-        <a>
-          <div class="card">
-            <iframe
-              width="580"
-              height="239"
-              src="https://www.youtube.com/embed/BU2eYAO31Cc"
-              title="Shutter Island Trailer"
-              frameborder="0"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              allowfullscreen
-            ></iframe>
-            <h2>Cine: Shutter Island</h2>
-            <p>
-              Un detective investiga una desaparición en un hospital
-              psiquiátrico, descubriendo oscuros secretos.
-            </p>
-          </div>
-        </a>
-      </section>
-      <!-- LITERATURA -->
-      <section class="grid">
-        <a
-          href="https://es.wikipedia.org/wiki/Psicosis_(novela)"
-          target="_blank"
-        >
-          <div class="card">
-            <img src="../../IMG/cineLiteratura/psicosis.jpg" alt="Psicosis" />
-            <h2>Libro: Psicosis</h2>
-            <p>
-              La novela de Robert Bloch que inspiró la legendaria película de
-              Alfred Hitchcock.
-            </p>
-          </div>
-        </a>
-        <a
-          href="https://es.wikipedia.org/wiki/El_coleccionista_(novela)"
-          target="_blank"
-        >
-          <div class="card">
-            <img
-              src="../../IMG/cineLiteratura/coleccionista.jpg"
-              alt="El coleccionista"
-            />
-            <h2>Libro: El coleccionista</h2>
-            <p>
-              Una inquietante historia de obsesión, secuestro y manipulación
-              psicológica.
-            </p>
-          </div>
-        </a>
-        <a href="https://es.wikipedia.org/wiki/American_Psycho" target="_blank">
-          <div class="card">
-            <img
-              src="../../IMG/cineLiteratura/americanpsycho.jpg"
-              alt="American Psycho"
-            />
-            <h2>Libro: American Psycho</h2>
-            <p>
-              Patrick Bateman es un exitoso ejecutivo cuya mente oculta impulsos
-              violentos y perturbadores.
-            </p>
-          </div>
-        </a>
-        <a
-          href="https://en.wikipedia.org/wiki/My_Heart_Is_a_Chainsaw"
-          target="_blank"
-        >
-          <div class="card">
-            <img
-              src="../../IMG/cineLiteratura/myheartisachainsaw.jpg"
-              alt="My Heart Is a Chainsaw"
-            />
-            <h2>Libro: My Heart Is a Chainsaw</h2>
-            <p>
-              Una joven obsesionada con el cine de terror cree reconocer el
-              inicio de una auténtica masacre en su pueblo.
-            </p>
-          </div>
-        </a>
-      </section>
+      <p class="footerInfo">Cine • Videojuegos • Arte • Literatura</p>
 
-      <a id="volverArriba" href="#arriba">VOLVER ARRIBA</a>
-      <a id="volverArriba" href="./cineLiteratura.html">VOLVER ATRÁS</a>
-    </main>
-    <!-- ---------------------------------------------------------------------------------------- -->
+      <p class="footerLinks">
+        <a href="https://github.com/LauHopps" target="_blank">GitHub</a> ·
+        <!-- No he puesto mi mastodon real -->
+        <a href="https://joinmastodon.org/es" target="_blank">Mastodon</a> ·
+        <a href="mailto:laurams007es@gmail.com">Contacto</a>
+      </p>
 
-    <!-- FOOTER -->
-    <footer>
-      <div class="footer-content">
-        <h3>HORROR CATEGORIES</h3>
-
-        <p>
-          Un recorrido por el miedo en el cine, los videojuegos, el arte y la
-          literatura.
-        </p>
-
-        <p class="footerInfo">Cine • Videojuegos • Arte • Literatura</p>
-
-        <p class="footerLinks">
-          <a href="https://github.com/LauHopps" target="_blank">GitHub</a> ·
-          <!-- No he puesto mi mastodon real -->
-          <a href="https://joinmastodon.org/es" target="_blank">Mastodon</a> ·
-          <a href="mailto:laurams007es@gmail.com">Contacto</a>
-        </p>
-
-        <div class="footerBottom">
-          <p>© 2026 Horror Categories — Todos los derechos reservados</p>
-        </div>
+      <div class="footerBottom">
+        <p>© 2026 Horror Categories — Todos los derechos reservados</p>
       </div>
-    </footer>
-    <!-- ---------------------------------------------------------------------------------------  -->
-  </body>
+    </div>
+  </footer>
+  <!-- ---------------------------------------------------------------------------------------  -->
+</body>
+
 </html>

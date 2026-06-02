@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Página del terror psicológico en el ámbito del arte.">
+    <meta name="author" content="Laura Muñoz Sánchez">
+
+    <link rel="icon" type="image/png" href="../../IMG/favicon.png">
+    <link rel="stylesheet" href="../../CSS/nav.css">
+    <link rel="stylesheet" href="../../CSS/stay.css">
+    <link rel="stylesheet" href="../../CSS/footer.css">
+    <link rel="stylesheet" href="../../CSS/categorias/contenido.css">
+
+    <title> ✡ ℍ𝕠𝕣𝕣𝕠𝕣 ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕖𝕤 ✡ | 𝔸𝕣𝕥𝕖 - ℙ𝕤𝕪𝕔𝕙𝕠𝕝𝕠𝕘𝕚𝕔𝕒𝕝 </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../categorias/categorias.html" title="Acceder a categorías">CATEGORÍAS</a></li>
+                <li><a href="../cineYLiteratura/cineLiteratura.html" title="Acceder a cine y literatura">CINE
+                        Y
+                        LITERATURA</a></li>
+                <li id="logo"><a id="linkLogo" href="../inicio.html" title="Volver a la portada"><img
+                            src="../../IMG/logoNav.png" alt="Logo de Horror Categories"></a></li>
+                <!-- Solo en el inicio redirige a la portada, en las demas paginas redirige al inicio -->
+                <li id="stay"><a href="../arte/arte.html" title="Acceder a arte">ARTE</a></li>
+                <li><a href="../videojuegos/videojuegos.html" title="Acceder a videojuegos">VIDEOJUEGOS</a></li>
+
+                <!-- Barra de búsqueda -->
+                <!-- Datalist que simula el comportamiento de un campo de búsqueda con sugerencias -->
+                <li id="search">
+                    <form>
+                        <input list="busquedas" id="barra" placeholder="Buscar...">
+                        <datalist id="busquedas">
+                            <option value="categorias">categorias</option>
+                            <option value="arte">arte</option>
+                            <option value="cine y literatura">cine y literatura</option>
+                            <option value="videojuegos">videojuegos</option>
+                            <option value="paranormal">paranormal</option>
+                            <option value="monster">monster</option>
+                            <option value="killer">killer</option>
+                            <option value="psychological">psychological</option>
+                            <option value="gore">gore</option>
+                        </datalist>
+                        <button type="submit" id="botonBuscar" title="Buscar"><img src="../../IMG/lupaNav.png"
+                                alt="Buscar"></button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CUERPO -->
+    <main>
+        <h1 class="titulo" id="arriba">PSYCHOLOGICAL</h1>
+
+        <p class="LoPar">
+            El terror psicológico se centra en el miedo interno y las traumas psicológicos, explorando la mente humana
+            en situaciones de estrés extremo.
+        </p>
+
+        <section class="grid">
+
+            <a href="https://es.wikipedia.org/wiki/Tres_estudios_para_figuras_en_la_base_de_una_crucifixi%C3%B3n"
+                target="_blank">
+                <div class="card">
+                    <img src="../../IMG/arte/bacon_crucifixion.jpg"
+                        alt="Tres estudios para figuras en la base de una crucifixión">
+                    <h2>Obra: Tres estudios para figuras en la base de una crucifixión</h2>
+                    <p> muestra seres distorsionados que transmiten angustia,
+                        violencia interior y horror psicológico.</p>
+                </div>
+            </a>
+
+            <a href="https://es.wikipedia.org/wiki/Perro_semihundido" target="_blank">
+                <div class="card">
+                    <img src="../../IMG/arte/el_perro.jpg" alt="El perro semihundido">
+                    <h2>Obra: El perro semihundido</h2>
+                    <p> refleja aislamiento, desesperación y vacío existencial en
+                        una de las imágenes más inquietantes de las Pinturas negras.</p>
+                </div>
+            </a>
+
+            <a href="https://es.wikipedia.org/wiki/La_noche_estrellada" target="_blank">
+                <div class="card">
+                    <img src="../../IMG/arte/noche_estrellada.webp" alt="La noche estrellada">
+                    <h2>Obra: La noche estrellada</h2>
+                    <p> transmite una intensidad emocional turbulenta que muchos
+                        interpretan como reflejo de la mente agitada del artista.</p>
+                </div>
+            </a>
+
+            <a href="https://historia-arte.com/obras/estudio-del-retrato-del-papa-inocencio-x-de-velazquez" target="_blank">
+                <div class="card">
+                    <img src="../../IMG/arte/inocencio_x.jpg" alt="Estudio del Papa Inocencio X">
+                    <h2>Obra: Estudio del Papa Inocencio X</h2>
+                    <p> distorsiona la figura humana hasta convertirla en una
+                        expresión de grito, angustia y terror interior.</p>
+                </div>
+            </a>
+        </section>
+
+        <a id="volverArriba" href="#arriba">VOLVER ARRIBA</a>
+        <a id="volverArriba" href="./arte.html">VOLVER ATRÁS</a>
+    </main>
+    <!-- ---------------------------------------------------------------------------------------- -->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <h3>HORROR CATEGORIES</h3>
+
+            <p>
+                Un recorrido por el miedo en el cine, los videojuegos, el arte y la literatura.
+            </p>
+
+            <p class="footerInfo">
+                Cine • Videojuegos • Arte • Literatura
+            </p>
+
+            <p class="footerLinks">
+                <a href="https://github.com/LauHopps" target="_blank">GitHub</a> ·
+                <!-- No he puesto mi mastodon real -->
+                <a href="https://joinmastodon.org/es" target="_blank">Mastodon</a> ·
+                <a href="mailto:laurams007es@gmail.com">Contacto</a>
+            </p>
+
+            <div class="footerBottom">
+                <p>© 2026 Horror Categories — Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ---------------------------------------------------------------------------------------  -->
+
+</body>
+
+</html>
