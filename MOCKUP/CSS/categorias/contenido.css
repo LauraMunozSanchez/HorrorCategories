@@ -1,6 +1,5 @@
 @import "../variables.css";
 
-/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -84,8 +83,12 @@ p {
     margin-top: 5px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* BOTÓN VOLVER */
-#volverAtras {
+#volverArriba {
     display: block;
     text-align: center;
     margin: 30px 0;
@@ -94,6 +97,6 @@ p {
     letter-spacing: 3px;
 }
 
-#volverAtras:hover {
+#volverArriba:hover {
     text-decoration: underline;
 }
