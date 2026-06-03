@@ -1,0 +1,30 @@
+{
+    "titulo": {
+        "linea1": "QUÉ ES EL",
+        "linea2": "TERROR",
+        "imagen_interrogacion": "../ASSETS/IMG/inicio/pregunta.png"
+    },
+    "introduccion": "El <span class=\"outstanding\">terror</span> es un género que se expresa de muchas formas en la cultura, desde el cine hasta los videojuegos, pasando por el arte y la literatura. En cada medio, explora el miedo, lo desconocido y lo inquietante de maneras únicas.<br><br><span class=\"bold\">Cine</span>, <span class=\"bold\">videojuegos</span>, <span class=\"bold\">arte</span> y <span class=\"bold\">literatura</span> se unen aquí para mostrar cómo el terror evoluciona y sigue fascinando a las personas.",
+    "bloques_contenido": [
+        {
+            "tipo": "imagen",
+            "src": "../ASSETS/IMG/inicio/stickFear.png",
+            "alt": "stickman con cara de miedo"
+        },
+        {
+            "tipo": "texto",
+            "contenido": "El <span class=\"outstanding\">miedo</span> es una emoción básica que aparece como respuesta a una amenaza real o imaginaria, y su función es protegernos activando el cuerpo para reaccionar rápidamente. El <span class=\"outstanding\">terror</span> es una forma más intensa de miedo, que surge ante lo desconocido, lo inexplicable o lo que sentimos fuera de control, generando una sensación de tensión y pérdida de seguridad.<br><br><span class=\"bold\">Miedo</span> y <span class=\"bold\">terror</span> afectan tanto al cuerpo como a la mente, provocando reacciones físicas como el aumento del pulso o la alerta extrema. Sin embargo, también tienen un papel importante en la cultura, ya que en el cine, el arte, la literatura y los videojuegos se utilizan para explorar emociones intensas de forma segura."
+        },
+        {
+            "tipo": "texto",
+            "contenido": "El <span class=\"outstanding\">miedo</span> y el <span class=\"outstanding\">terror</span> han sido pilares fundamentales en la cultura audiovisual y narrativa, especialmente en el cine, los videojuegos, el arte y la literatura. El miedo suele construirse a partir de la tensión, el suspense y la identificación con los personajes, mientras que el terror se adentra en lo desconocido, lo perturbador y lo inhumano, buscando incomodar y desestabilizar al espectador o jugador.<br><br><span class=\"bold\">Cine</span>, <span class=\"bold\">videojuegos</span>, <span class=\"bold\">arte</span> y <span class=\"bold\">literatura</span> han utilizado estas emociones como herramientas expresivas para explorar lo psychological, lo sobrenatural y lo grotesco. Desde el cine clásico de terror hasta experiencias interactivas en videojuegos o relatos literarios oscuros, estas formas de arte transforman el miedo en una experiencia estética, permitiéndonos enfrentarnos a nuestros temores en un entorno seguro y profundamente creativo."
+        },
+        {
+            "tipo": "imagen",
+            "src": "../ASSETS/IMG/inicio/ghostface.png",
+            "alt": "Imagen de Ghostface"
+        }
+    ],
+    "conclusion": "En esta página, te invitamos a explorar las diferentes categorías de terror que hemos seleccionado para ti. Cada categoría ofrece una experiencia única, desde el terror psicológico que juega con tu mente, hasta el gore que no deja nada a la imaginación. Descubre qué tipo de terror te atrae más y sumérgete en un mundo de emociones intensas y fascinantes."
+    
+}

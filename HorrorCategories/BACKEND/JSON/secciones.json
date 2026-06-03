@@ -1,0 +1,77 @@
+{
+    "cine_literatura": {
+        "titulo_seccion": "CINE Y LITERATURA",
+        "items": [
+            {
+                "enlace": "./cineYLiTeratura.php?id=paranormal",
+                "imagen": "../ASSETS/IMG/categorias/paranormal.png",
+                "alt": "Paranormal"
+            },
+            {
+                "enlace": "./cineYLiTeratura.php?id=monster",
+                "imagen": "../ASSETS/IMG/categorias/Monster.png",
+                "alt": "Monster"
+            },
+            {
+                "enlace": "./cineYLiTeratura.php?id=killer",
+                "imagen": "../ASSETS/IMG/categorias/killer.png",
+                "alt": "Killer"
+            },
+            {
+                "enlace": "./cineYLiTeratura.php?id=psychological",
+                "imagen": "../ASSETS/IMG/categorias/psychological.png",
+                "alt": "Psychological"
+            }
+        ]
+    },
+    "arte": {
+        "titulo_seccion": "ARTE",
+        "items": [
+            {
+                "enlace": "./arte.php?id=paranormal",
+                "imagen": "../ASSETS/IMG/categorias/paranormal.png",
+                "alt": "Paranormal Arte"
+            },
+            {
+                "enlace": "./arte.php?id=monster",
+                "imagen": "../ASSETS/IMG/categorias/Monster.png",
+                "alt": "Monster Arte"
+            },
+            {
+                "enlace": "./arte.php?id=killer",
+                "imagen": "../ASSETS/IMG/categorias/killer.png",
+                "alt": "Killer Arte"
+            },
+            {
+                "enlace": "./arte.php?id=psychological",
+                "imagen": "../ASSETS/IMG/categorias/psychological.png",
+                "alt": "Psychological Arte"
+            }
+        ]
+    },
+    "videojuegos": {
+        "titulo_seccion": "VIDEOJUEGOS",
+        "items": [
+            {
+                "enlace": "./videojuegos.php?id=paranormal",
+                "imagen": "../ASSETS/IMG/categorias/paranormal.png",
+                "alt": "Paranormal Videojuegos"
+            },
+            {
+                "enlace": "./videojuegos.php?id=monster",
+                "imagen": "../ASSETS/IMG/categorias/Monster.png",
+                "alt": "Monster Videojuegos"
+            },
+            {
+                "enlace": "./videojuegos.php?id=killer",
+                "imagen": "../ASSETS/IMG/categorias/killer.png",
+                "alt": "Killer Videojuegos"
+            },
+            {
+                "enlace": "./videojuegos.php?id=psychological",
+                "imagen": "../ASSETS/IMG/categorias/psychological.png",
+                "alt": "Psychological Videojuegos"
+            }
+        ]
+    }
+}

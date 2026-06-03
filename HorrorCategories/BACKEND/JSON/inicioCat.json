@@ -1,0 +1,82 @@
+{
+    "titulo": "CATEGORIAS PRINCIPALES",
+    "categorias_principales": [
+        {
+            "enlace": "./categorias.php?id=paranormal",
+            "imagen": "../../ASSETS/IMG/categorias/paranormal.png",
+            "alt": "Paranormal"
+        },
+        {
+            "enlace": "./categorias.php?id=monster",
+            "imagen": "../../ASSETS/IMG/categorias/Monster.png",
+            "alt": "Monster"
+        },
+        {
+            "enlace": "./categorias.php?id=killer",
+            "imagen": "../../ASSETS/IMG/categorias/killer.png",
+            "alt": "Killer"
+        },
+        {
+            "enlace": "./categorias.php?id=psicologico",
+            "imagen": "../../ASSETS/IMG/categorias/psychological.png",
+            "alt": "Psychological"
+        }
+    ],
+    "tabla_extras": {
+        "titulo": "EXTRAS",
+        "filas": [
+            [
+                {
+                    "nombre": "Comedy Horror",
+                    "enlace": "https://es.wikipedia.org/wiki/Comedia_de_terror"
+                },
+                {
+                    "nombre": "Sci-Fi Horror",
+                    "enlace": "https://www.imdb.com/es/list/ls068452027/"
+                },
+                {
+                    "nombre": "Horror Romance",
+                    "enlace": "https://bookriot.com/what-is-horromance/"
+                },
+                {
+                    "nombre": "Creepy Kid",
+                    "enlace": "https://palomaynacho.com/blog/ninos-creepy-cine/"
+                },
+                {
+                    "nombre": "Gothic Horror",
+                    "enlace": "https://eljardindelsur.com/2020/11/26/el-terror-gotico-caracteristicas-y-obras/"
+                },
+                {
+                    "nombre": "Body Horror",
+                    "enlace": "https://es.wikipedia.org/wiki/Horror_corporal"
+                }
+            ],
+            [
+                {
+                    "nombre": "French Extremity",
+                    "enlace": "https://es.wikipedia.org/wiki/Nuevo_extremismo_franc%C3%A9s"
+                },
+                {
+                    "nombre": "Revenge",
+                    "enlace": "https://es.wikipedia.org/wiki/Revenge_(film)"
+                },
+                {
+                    "nombre": "Found Footage",
+                    "enlace": "https://es.wikipedia.org/wiki/Metraje_encontrado_(g%C3%A9nero)"
+                },
+                {
+                    "nombre": "Meta",
+                    "enlace": "https://cinedivergente.com/metaterror/"
+                },
+                {
+                    "nombre": "Analog Horror",
+                    "enlace": "https://es.wikipedia.org/wiki/Terror_anal%C3%B3gico"
+                },
+                {
+                    "nombre": "Technology",
+                    "enlace": "https://en.wikipedia.org/wiki/Techno-horror#:~:text=Techno%2Dhorror%20is%20a%20sub,%2C%20individuality%2C%20and%20wealth%20disparity."
+                }
+            ]
+        ]
+    }
+}

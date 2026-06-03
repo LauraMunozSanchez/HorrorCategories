@@ -1,0 +1,148 @@
+{
+    "categorias": {
+        "killer": {
+            "titulo": "KILLER",
+            "descripcion": "El terror killer se centra en asesinos en serie y figuras aterradoras que representan el mal absoluto. Es uno de los subgéneros más populares por su capacidad para inspirar miedo y fascinación.",
+            "meta_description": "Página del terror del asesino en el ámbito del arte.",
+            "titulo_pestana": "Arte - Killer",
+            "obras": [
+                {
+                    "titulo": "Judith y Holofernes",
+                    "enlace": "https://es.wikipedia.org/wiki/Judith_y_Holofernes",
+                    "imagen": "../ASSETS/IMG/arte/judith_holofernes.jpg",
+                    "alt": "Judith decapitando a Holofernes",
+                    "texto": "representa el momento en que Judith asesina al general enemigo, una escena de violencia intensa y dramática."
+                },
+                {
+                    "titulo": "La muerte de Marat",
+                    "enlace": "https://es.wikipedia.org/wiki/La_muerte_de_Marat",
+                    "imagen": "../ASSETS/IMG/arte/marat.jpg",
+                    "alt": "La muerte de Marat",
+                    "texto": "muestra el asesinato del revolucionario francés Jean-Paul Marat en su bañera, convertido en icono político."
+                },
+                {
+                    "titulo": "Caín y Abel",
+                    "enlace": "https://es.wikipedia.org/wiki/Ca%C3%ADn",
+                    "imagen": "../ASSETS/IMG/arte/cain_abel.jpg",
+                    "alt": "Caín y Abel",
+                    "texto": "muestra el primer asesinato de la humanidad, donde Caín mata a su hermano Abel por celos."
+                },
+                {
+                    "titulo": "Asesinato de Julio César",
+                    "enlace": "https://es.wikipedia.org/wiki/Julio_C%C3%A9sar",
+                    "imagen": "../ASSETS/IMG/arte/julio_cesar.jpg",
+                    "alt": "Asesinato de Julio César",
+                    "texto": "ha sido representado en múltiples pinturas mostrando la conspiración y el ataque en los idus de marzo."
+                }
+            ]
+        },
+        "paranormal": {
+            "titulo": "PARANORMAL",
+            "descripcion": "El terror paranormal se basa en entidades invisibles, presencias y fuerzas sobrenaturales. Es uno de los subgéneros más inquietantes porque rompe las reglas de la realidad.",
+            "meta_description": "Página del terror paranormal en el ámbito del arte.",
+            "titulo_pestana": "Arte - Paranormal",
+            "obras": [
+                {
+                    "titulo": "La pesadilla",
+                    "enlace": "https://es.wikipedia.org/wiki/La_pesadilla",
+                    "imagen": "../ASSETS/IMG/arte/lapesadilla.jpg",
+                    "alt": "La pesadilla",
+                    "texto": "Una inquietante escena donde una figura demoníaca acecha a una mujer dormida, símbolo clásico de las experiencias sobrenaturales y las pesadillas."
+                },
+                {
+                    "titulo": "El grito",
+                    "enlace": "https://es.wikipedia.org/wiki/El_grito",
+                    "imagen": "../ASSETS/IMG/arte/elgrito.jpg",
+                    "alt": "El grito",
+                    "texto": "Una figura atormentada en un paisaje inquietante que evoca presencias invisibles, angustia existencial y fenómenos inexplicables."
+                },
+                {
+                    "titulo": "El aquelarre",
+                    "enlace": "https://fundaciongoyaenaragon.es/obra/el-aquelarre/526",
+                    "imagen": "../ASSETS/IMG/arte/aquelarre.jpg",
+                    "alt": "El aquelarre",
+                    "texto": "Representación de una reunión de brujas junto a una figura demoníaca, inspirada en creencias sobre magia oscura y lo sobrenatural."
+                },
+                {
+                    "titulo": "La isla de los muertos",
+                    "enlace": "https://es.wikipedia.org/wiki/La_isla_de_los_muertos_(B%C3%B6cklin)",
+                    "imagen": "../ASSETS/IMG/arte/isladelosmuertos.jpg",
+                    "alt": "La isla de los muertos",
+                    "texto": "Una misteriosa embarcación se acerca a una isla funeraria envuelta en silencio, evocando el tránsito entre el mundo de los vivos y el más allá."
+                }
+            ]
+        },
+        "psychological": {
+            "titulo": "PSYCHOLOGICAL",
+            "descripcion": "El terror psicológico se centra en el miedo interno y los traumas psicológicos, explorando la mente humana en situaciones de estrés extremo.",
+            "meta_description": "Página del terror psicológico en el ámbito del arte.",
+            "titulo_pestana": "Arte - Psychological",
+            "obras": [
+                {
+                    "titulo": "Tres estudios para figuras en la base de una crucifixión",
+                    "enlace": "https://es.wikipedia.org/wiki/Tres_estudios_para_figuras_en_la_base_de_una_crucifixi%C3%B3n",
+                    "imagen": "../ASSETS/IMG/arte/bacon_crucifixion.jpg",
+                    "alt": "Tres estudios para figuras en la base de una crucifixión",
+                    "texto": "muestra seres distorsionados que transmiten angustia, violencia interior y horror psicológico."
+                },
+                {
+                    "titulo": "El perro semihundido",
+                    "enlace": "https://es.wikipedia.org/wiki/Perro_semihundido",
+                    "imagen": "../ASSETS/IMG/arte/el_perro.jpg",
+                    "alt": "El perro semihundido",
+                    "texto": "refleja aislamiento, desesperación y vacío existencial en una de las imágenes más inquietantes de las Pinturas negras."
+                },
+                {
+                    "titulo": "La noche estrellada",
+                    "enlace": "https://es.wikipedia.org/wiki/La_noche_estrellada",
+                    "imagen": "../ASSETS/IMG/arte/noche_estrellada.webp",
+                    "alt": "La noche estrellada",
+                    "texto": "transmite una intensidad emocional turbulenta que muchos interpretan como reflejo de la mente agitada del artista."
+                },
+                {
+                    "titulo": "Estudio del Retrato del Papa Inocencio X",
+                    "enlace": "https://historia-arte.com/obras/estudio-del-retrato-del-papa-inocencio-x-de-velazquez",
+                    "imagen": "../ASSETS/IMG/arte/inocencio_x.jpg",
+                    "alt": "Estudio del Papa Inocencio X",
+                    "texto": "distorsiona la figura humana hasta convertirla en una expresión de grito, angustia y terror interior."
+                }
+            ]
+        },
+        "monster": {
+            "titulo": "MONSTER",
+            "descripcion": "El terror monster se centra en criaturas aterradoras y seres mitológicos que desafían la comprensión humana. Es uno de los subgéneros más populares por su capacidad para inspirar miedo y fascinación.",
+            "meta_description": "Página del terror monstruoso en el ámbito del arte.",
+            "titulo_pestana": "Arte - Monster",
+            "obras": [
+                {
+                    "titulo": "Bestiarios medievales",
+                    "enlace": "https://es.wikipedia.org/wiki/Bestiario",
+                    "imagen": "../ASSETS/IMG/arte/bestiario.jpg",
+                    "alt": "Bestiarios medievales",
+                    "texto": "Ilustraciones de criaturas como grifos, dragones y quimeras que combinan animales reales e imaginarios en los manuscritos medievales."
+                },
+                {
+                    "titulo": "Cerbero",
+                    "enlace": "https://es.wikipedia.org/wiki/Cerbero",
+                    "imagen": "../ASSETS/IMG/arte/cerbero.jpg",
+                    "alt": "Cerbero",
+                    "texto": "El guardián del inframundo, ha sido representado en el arte clásico como una bestia de múltiples cabezas que impide la salida de los muertos del Hades."
+                },
+                {
+                    "titulo": "Monstruos marinos (Kraken)",
+                    "enlace": "https://es.wikipedia.org/wiki/Kraken",
+                    "imagen": "../ASSETS/IMG/arte/kraken.jpg",
+                    "alt": "Monstruos marinos",
+                    "texto": "Grabados antiguos muestran enormes criaturas marinas atacando barcos, inspiradas en leyendas nórdicas del Kraken."
+                },
+                {
+                    "titulo": "Dragones medievales",
+                    "enlace": "https://es.wikipedia.org/wiki/Drag%C3%B3n",
+                    "imagen": "../ASSETS/IMG/arte/dragon.jpg",
+                    "alt": "Dragones en el arte medieval",
+                    "texto": "Los dragones aparecen en códices y tapices como bestias aladas que representan el caos y la amenaza sobrenatural."
+                }
+            ]
+        }
+    }
+}
