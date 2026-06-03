@@ -1,0 +1,112 @@
+{
+    "categorias": {
+        "killer": {
+            "tituloPagina": "✡ ℍ𝕠𝕣𝕣𝕠𝕣 ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕖𝕤 ✡ | 𝕍𝕚𝕕𝕖𝕠𝕛𝕦𝕖𝕘𝕠𝕤 - 𝕂𝕚𝕝𝕝𝕖𝕣",
+            "titulo": "KILLER",
+            "descripcion": "El terror del asesino se centra en la persecución y el miedo constante de ser descubierto por un asesino serial. Es uno de los subgéneros más populares en el mundo de los videojuegos.",
+            "contenido": [
+                {
+                    "titulo": "Videojuego: Dead by Daylight",
+                    "video": "https://www.youtube.com/embed/SmlwCb8rP8Y",
+                    "texto": "Supervivientes intentan escapar mientras un asesino los persigue en escenarios inspirados en el cine de terror."
+                },
+                {
+                    "titulo": "Videojuego: Manhunt",
+                    "video": "https://www.youtube.com/embed/bLJpMzqtK0k",
+                    "texto": "Un violento juego de sigilo donde asesinos y criminales convierten la supervivencia en una cacería mortal."
+                },
+                {
+                    "titulo": "Videojuego: Clock Tower",
+                    "video": "https://www.youtube.com/embed/A1xViammdAo",
+                    "texto": "Jennifer debe escapar de Scissorman, un aterrador asesino armado con unas enormes tijeras."
+                },
+                {
+                    "titulo": "Videojuego: Remothered: Tormented Fathers",
+                    "video": "https://www.youtube.com/embed/T4xx5Ssu8FA",
+                    "texto": "Una investigación se transforma en una pesadilla cuando una mujer es perseguida por un peligroso asesino."
+                }
+            ]
+        },
+        "monster": {
+            "tituloPagina": "✡ ℍ𝕠𝕣𝕣𝕠𝕣 ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕖𝕤 ✡ | 𝕍𝕚𝕕𝕖𝕠𝕛𝕦𝕖𝕘𝕠𝕤 - 𝕄𝕆ℕ𝕊𝕋𝔼ℝ",
+            "titulo": "MONSTER",
+            "descripcion": "El terror monstruoso se basa en criaturas aterradoras y seres sobrenaturales que amenazan con destruir a los humanos. Es uno de los subgéneros más populares en el mundo de los videojuegos.",
+            "contenido": [
+                {
+                    "titulo": "Videojuego: Resident Evil",
+                    "video": "https://www.youtube.com/embed/N8j7ReJ-fkM",
+                    "texto": "Una saga de terror y supervivencia donde los jugadores se enfrentan a zombis, mutaciones biológicas y criaturas creadas por experimentos peligrosos."
+                },
+                {
+                    "titulo": "Videojuego: Dead Space",
+                    "video": "https://www.youtube.com/embed/N7lCSQo_SFM",
+                    "texto": "Una experiencia de terror espacial en la que monstruosos necromorfos acechan en una nave abandonada."
+                },
+                {
+                    "titulo": "Videojuego: The Evil Within",
+                    "video": "https://www.youtube.com/embed/ZimAuIC22UY",
+                    "texto": "Combina terror psicológico y supervivencia en un mundo repleto de monstruos grotescos y pesadillas vivientes."
+                },
+                {
+                    "titulo": "Videojuego: Left 4 Dead",
+                    "video": "https://www.youtube.com/embed/AhvogyAXEQw",
+                    "texto": "Un juego cooperativo donde grupos de supervivientes luchan contra hordas de infectados y aterradoras mutaciones especiales."
+                }
+            ]
+        },
+        "paranormal": {
+            "tituloPagina": "✡ ℍ𝕠𝕣𝕣𝕠𝕣 ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕖𝕤 ✡ | 𝕍𝕚𝕕𝕖𝕠𝕛𝕦𝕖𝕘𝕠𝕤 - ℙ𝕒𝕣𝕒𝕟𝕠𝕣𝕞𝕒𝕝",
+            "titulo": "PARANORMAL",
+            "descripcion": "El terror paranormal se basa en entidades invisibles, presencias y fuerzas sobrenaturales. Es uno de los subgéneros más inquietantes porque rompe las reglas de la realidad.",
+            "contenido": [
+                {
+                    "titulo": "Videojuego: Phasmophobia",
+                    "video": "https://www.youtube.com/embed/xsr5Nh7CZ20",
+                    "texto": "Investiga fenómenos paranormales junto a otros jugadores usando herramientas de detección de fantasmas."
+                },
+                {
+                    "titulo": "Videojuego: Project Zero",
+                    "video": "https://www.youtube.com/embed/4mtqK6hqoys",
+                    "texto": "Una saga de terror japonesa donde debes enfrentarte a espíritus usando una cámara especial."
+                },
+                {
+                    "titulo": "Videojuego: F.E.A.R.",
+                    "video": "https://www.youtube.com/embed/EEJZU1VP1ik",
+                    "texto": "Combina acción y terror psicológico con la inquietante presencia de Alma."
+                },
+                {
+                    "titulo": "Videojuego: Calling",
+                    "video": "https://www.youtube.com/embed/96lJoOMRX-k",
+                    "texto": "Un juego de terror para Wii donde una misteriosa página web conecta a los vivos con los muertos."
+                }
+            ]
+        },
+        "psychological": {
+            "tituloPagina": "✡ ℍ𝕠𝕣𝕣𝕠𝕣 ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕖𝕤 ✡ | 𝕍𝕚𝕕𝕖𝕠𝕛𝕦𝕖𝕘𝕠𝕤 - ℙ𝕊𝕐ℂℍ𝕆𝕃𝕆𝔾𝕀ℂ𝔸𝕃",
+            "titulo": "PSYCHOLOGICAL",
+            "descripcion": "El terror psicológico se centra en la mente y las emociones de los personajes, creando un ambiente de miedo y ansiedad. Es uno de los subgéneros más populares en el mundo de los videojuegos.",
+            "contenido": [
+                {
+                    "titulo": "Videojuego: Silent Hill 2",
+                    "video": "https://www.youtube.com/embed/-i_T5ehzhRs",
+                    "texto": "Una inquietante historia de culpa y trauma donde los monstruos reflejan los miedos y conflictos internos del protagonista."
+                },
+                {
+                    "titulo": "Videojuego: Visage",
+                    "video": "https://www.youtube.com/embed/OYZx7oXzwBo",
+                    "texto": "Explora una casa maldita llena de sucesos perturbadores, apariciones y fenómenos que afectan la cordura."
+                },
+                {
+                    "titulo": "Videojuego: Layers of Fear",
+                    "video": "https://www.youtube.com/embed/qKB5uzEixjc",
+                    "texto": "Un pintor atormentado se adentra en una mansión cambiante donde la realidad y la locura se confunden."
+                },
+                {
+                    "titulo": "Videojuego: SOMA",
+                    "video": "https://www.youtube.com/embed/aRzE3yE_oX0",
+                    "texto": "Una experiencia inquietante que explora la identidad humana, la conciencia y el miedo a lo desconocido."
+                }
+            ]
+        }
+    }
+}
