@@ -1,0 +1,9 @@
+:link : El enlace está en su estado normal, es decir, es un enlace a un destino que el usuario aún no ha visitado.
+
+:visited : El enlace apunta a una página que el usuario ya ha visitado anteriormente (el navegador lo reconoce por su historial).
+
+:hover : El estado que se activa justo cuando el usuario pasa el cursor (ratón) por encima del enlace.
+
+:active : El estado exacto cuando el usuario hace clic sobre el enlace y mantiene presionado el botón.
+
+.active : 
