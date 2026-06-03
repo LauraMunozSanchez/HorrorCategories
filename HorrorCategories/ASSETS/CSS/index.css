@@ -1,0 +1,100 @@
+/*ℙ𝕆ℝ𝕋𝔸𝔻𝔸*/
+
+/* ESTILOS GENERALES */
+* {
+    margin: 0; /* Elimina el margen por defecto  */
+    padding: 0; /* Elimina el padding por defecto  */
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el tamaño total del elemento */
+    user-select: none; /* Evita que el texto sea seleccionable */
+}
+
+body{
+
+    background-image: url(../IMG/portada/bg_Portada.gif);
+    background-size: cover;
+    background-position: center;
+
+    overflow:hidden; /* Evita que aparezcan barras de desplazamiento si el contenido excede el tamaño de la ventana */
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+
+/*LOGO*/
+#logo {
+    display:inline-block; /* Permite que el logo y el botón estén en la misma línea */
+    vertical-align:middle; /* Alinea verticalmente el logo con el botón */
+    width:69%;
+
+}
+
+#logo img{
+    display:block; /* Hace que se muestre como un bloque y elimina el espacio debajo de la imagen */
+    width:60%;
+    margin-top: 5%; 
+    margin-left:auto; 
+    margin-right:0; 
+
+    animation:float 2s ease-in-out infinite; /* Aplica la animación de flotación al logo */
+    /* Sintaxis: nombre de la animación, duración, tipo de easing, repeticiones */
+}
+
+/*BOTON*/
+#botonFlecha {
+    display:inline-block;
+    width:29%;
+    vertical-align:bottom; /* Alinea el botón con la parte inferior del logo */
+    text-align:center; /* Centra el contenido del botón horizontalmente */
+}
+
+#botonFlecha img{
+    display:block;
+    width:30%;
+    margin:auto;
+}
+
+#botonFlecha img:hover{
+    animation: pop 2s ease-in-out infinite;
+}
+
+/*ANIMACIONES*/
+@keyframes float { /* Animación que simula flotar */
+    0% {
+        transform: translateY(0); /* Posición inicial, sin movimiento */
+    }
+    50% {
+        transform: translateY(-10px); /* En la mitad de la animación, la imagen se mueve hacia arriba 10 píxeles */
+    }
+    100% {
+        transform: translateY(0); /* Al final de la animación, la imagen vuelve a su posición original */
+    }
+}
+
+@keyframes pop { /* Animación pop (se hace mas grande) */
+    0% {
+        transform: scale(1); /* Posición inicial, sin movimiento */
+    }
+    50% {
+        transform: scale(1.2); /* En la mitad de la animación, la imagen se hace mas grande */
+    }
+    100% {
+        transform: scale(1); /* Al final de la animación, la imagen vuelve a su posición original */
+    }
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1360px) {
+
+    #logo {
+        width:65%;
+    }
+    
+    #botonFlecha {
+        width:29%;
+
+    }
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/

@@ -1,0 +1,102 @@
+{
+    "psicologico": {
+        "tituloPagina": " ✡ ℍ𝕠𝕣𝕣𝕠𝕣 ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕖𝕤 ✡ | ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕒𝕤 - ℙ𝕤𝕪𝕔𝕙𝕠𝕝𝕠𝕘𝕚𝕔𝕒𝕝",
+        "medios": [
+            {
+                "nombre": "CINE",
+                "enlace": "../CineYLiteratura.php?id=psychological",
+                "imagen": "../../ASSETS/IMG/categorias/psCine.png"
+            },
+            {
+                "nombre": "LITERATURA",
+                "enlace": "../CineYLiteratura.php?id=psychological",
+                "imagen": "../../ASSETS/IMG/categorias/psLiteratura.jpg"
+            },
+            {
+                "nombre": "ARTE",
+                "enlace": "../arte.php?id=psychological",
+                "imagen": "../../ASSETS/IMG/categorias/psArte.jpg"
+            },
+            {
+                "nombre": "VIDEOJUEGOS",
+                "enlace": "../videojuegos.php?id=psychological",
+                "imagen": "../../ASSETS/IMG/categorias/psVideojuegos.png"
+            }
+        ]
+    },
+    "paranormal": {
+        "tituloPagina": " ✡ ℍ𝕠𝕣𝕣𝕠𝕣 ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕖𝕤 ✡ | ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕒𝕤 - ℙ𝕤𝕪𝕔𝕙𝕠𝕝𝕠𝕘𝕚𝕔𝕒𝕝",
+        "medios": [
+            {
+                "nombre": "CINE",
+                "enlace": "../CineYLiteratura.php?id=paranormal",
+                "imagen": "../../ASSETS/IMG/categorias/pCine.png"
+            },
+            {
+                "nombre": "LITERATURA",
+                "enlace": "../CineYLiteratura.php?id=paranormal ",
+                "imagen": "../../ASSETS/IMG/categorias/pLiteratura.png"
+            },
+            {
+                "nombre": "ARTE",
+                "enlace": "../arte.php?id=paranormal",
+                "imagen": "../../ASSETS/IMG/categorias/pArte.png"
+            },
+            {
+                "nombre": "VIDEOJUEGOS",
+                "enlace": "../videojuegos.php?id=paranormal",
+                "imagen": "../../ASSETS/IMG/categorias/pVideojuegos.png"
+            }
+        ]
+    },
+    "killer": {
+        "tituloPagina": " ✡ ℍ𝕠𝕣𝕣𝕠𝕣 ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕖𝕤 ✡ | ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕒𝕤 - 𝕂𝕚𝕝𝕝𝕖𝕣",
+        "medios": [
+            {
+                "nombre": "CINE",
+                "enlace": "../CineYLiteratura.php?id=killer",
+                "imagen": "../../ASSETS/IMG/categorias/kCine.png"
+            },
+            {
+                "nombre": "LITERATURA",
+                "enlace": "../CineYLiteratura.php?id=killer",
+                "imagen": "../../ASSETS/IMG/categorias/kLiteratura.jpg"
+            },
+            {
+                "nombre": "ARTE",
+                "enlace": "../arte.php?id=killer",
+                "imagen": "../../ASSETS/IMG/categorias/kArte.jpg"
+            },
+            {
+                "nombre": "VIDEOJUEGOS",
+                "enlace": "../videojuegos.php?id=killer",
+                "imagen": "../../ASSETS/IMG/categorias/kVideojuegos.png"
+            }
+        ]
+    },
+    "monster": {
+        "tituloPagina": " ✡ ℍ𝕠𝕣𝕣𝕠𝕣 ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕖𝕤 ✡ | ℂ𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕒𝕤 - 𝕄𝕠𝕟𝕤𝕥𝕖𝕣",
+        "medios": [
+            {
+                "nombre": "CINE",
+                "enlace": "../CineYLiteratura.php?id=monster",
+                "imagen": "../../ASSETS/IMG/categorias/mCine.png"
+            },
+            {
+                "nombre": "LITERATURA",
+                "enlace": "../CineYLiteratura.php?id=monster",
+                "imagen": "../../ASSETS/IMG/categorias/mLiteratura.jpg"
+            },
+            {
+                "nombre": "ARTE",
+                "enlace": "../arte.php?id=monster",
+                "imagen": "../../ASSETS/IMG/categorias/mArte.png"
+            },
+            {
+                "nombre": "VIDEOJUEGOS",
+                "enlace": "../videojuegos.php?id=monster",
+                "imagen": "../../ASSETS/IMG/categorias/mVideojuegos.png"
+            }
+        ]
+    }
+}

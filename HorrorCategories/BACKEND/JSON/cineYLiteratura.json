@@ -1,0 +1,236 @@
+{
+    "categorias": {
+        "killer": {
+            "titulo": "KILLER",
+            "descripcion": "El terror de asesinos en serie se centra en personajes que cometen crímenes brutales y sanguinarios. Es uno de los subgéneros más populares del cine y la literatura.",
+            "meta_description": "Página del terror de asesinos en el ámbito del cine y la literatura.",
+            "titulo_pestana": "Cine y Literatura - Killer",
+            "cine": [
+                {
+                    "titulo": "Cine: A Nightmare On Elm Street",
+                    "video_src": "https://www.youtube.com/embed/zOFJSlwcgDM",
+                    "texto": "Freddy Krueger invade los sueños de un grupo de adolescentes para asesinarlos mientras duermen."
+                },
+                {
+                    "titulo": "Cine: Scream",
+                    "video_src": "https://www.youtube.com/embed/Z3JMLR3hrMc",
+                    "texto": "Un asesino enmascarado conocido como Ghostface aterroriza a un grupo de adolescentes."
+                },
+                {
+                    "titulo": "Cine: American Psycho",
+                    "video_src": "https://www.youtube.com/embed/-or1DhmZe8I",
+                    "texto": "Patrick Bateman oculta tras su vida de lujo una personalidad violenta y perturbadora."
+                },
+                {
+                    "titulo": "Cine: Zodiaco",
+                    "video_src": "https://www.youtube.com/embed/ptcs9xdknqE",
+                    "texto": "Basada en hechos reales, sigue la investigación del misterioso asesino del Zodiaco en California."
+                }
+            ],
+            "literatura": [
+                {
+                    "titulo": "Libro: La Toffana",
+                    "enlace": "https://es.wikipedia.org/wiki/Giulia_Tofana",
+                    "imagen": "../../IMG/cineLiteratura/toffana.jpg",
+                    "alt": "La Toffana",
+                    "texto": "La historia de Giulia Tofana, una de las envenenadoras más famosas de la historia."
+                },
+                {
+                    "titulo": "Libro: El coleccionista",
+                    "enlace": "https://es.wikipedia.org/wiki/El_coleccionista_(novela)",
+                    "imagen": "../../IMG/cineLiteratura/coleccionista.jpg",
+                    "alt": "El coleccionista",
+                    "texto": "La obsesión de un hombre lo lleva a secuestrar a una joven en una inquietante historia psicológica."
+                },
+                {
+                    "titulo": "Libro: El ángel de la muerte",
+                    "enlace": "https://es.wikipedia.org/wiki/Josef_Mengele",
+                    "imagen": "../../IMG/cineLiteratura/angeldelamuerte.jpg",
+                    "alt": "El ángel de la muerte",
+                    "texto": "Relato basado en la figura de Josef Mengele, conocido por sus crímenes durante la Segunda Guerra Mundial."
+                },
+                {
+                    "titulo": "Libro: My Heart Is a Chainsaw",
+                    "enlace": "https://en.wikipedia.org/wiki/My_Heart_Is_a_Chainsaw",
+                    "imagen": "../../IMG/cineLiteratura/myheartisachainsaw.jpg",
+                    "alt": "My Heart Is a Chainsaw",
+                    "texto": "Una apasionada del cine slasher cree que los asesinatos de su pueblo siguen el patrón de una película de terror."
+                }
+            ]
+        },
+        "monster": {
+            "titulo": "MONSTER",
+            "descripcion": "El terror de monstruos se centra en criaturas aterradoras y peligrosas que amenazan a los humanos. Es uno de los subgéneros más populares del cine y la literatura.",
+            "meta_description": "Página del terror de monstruos en el ámbito del cine y la literatura.",
+            "titulo_pestana": "Cine y Literatura - Monster",
+            "cine": [
+                {
+                    "titulo": "Cine: Alien",
+                    "video_src": "https://www.youtube.com/embed/S9hidjic7AM",
+                    "texto": "La tripulación de una nave espacial debe sobrevivir a una letal criatura extraterrestre."
+                },
+                {
+                    "titulo": "Cine: La Cosa (The Thing)",
+                    "video_src": "https://www.youtube.com/embed/mcFct1otVyE",
+                    "texto": "Un organismo capaz de imitar a cualquier ser vivo siembra el terror en una base antártica."
+                },
+                {
+                    "titulo": "Cine: Godzilla",
+                    "video_src": "https://www.youtube.com/embed/2XNHD0QFYBo",
+                    "texto": "Un gigantesco monstruo emerge para destruir ciudades enteras."
+                },
+                {
+                    "titulo": "Cine: Un Lugar Tranquilo",
+                    "video_src": "https://www.youtube.com/embed/CWWtuueg5K0",
+                    "texto": "Criaturas con un oído extremadamente sensible cazan a cualquier ser que haga ruido."
+                }
+            ],
+            "literatura": [
+                {
+                    "titulo": "Libro: Frankenstein",
+                    "enlace": "https://es.wikipedia.org/wiki/Frankenstein_o_El_moderno_Prometeo",
+                    "imagen": "../../IMG/cineLiteratura/frankenstein.jpg",
+                    "alt": "Frankenstein",
+                    "texto": "La historia del monstruo creado por Victor Frankenstein, una de las criaturas más famosas de la literatura."
+                },
+                {
+                    "titulo": "Libro: Drácula",
+                    "enlace": "https://es.wikipedia.org/wiki/Dr%C3%A1cula",
+                    "imagen": "../../IMG/cineLiteratura/dracula.jpg",
+                    "alt": "Drácula",
+                    "texto": "El legendario vampiro que aterroriza a sus víctimas en una de las novelas de terror más influyentes."
+                },
+                {
+                    "titulo": "Libro: It",
+                    "enlace": "https://es.wikipedia.org/wiki/It_(novela)",
+                    "imagen": "../../IMG/cineLiteratura/it.jpg",
+                    "alt": "It",
+                    "texto": "Una entidad monstruosa que adopta distintas formas para alimentarse del miedo."
+                },
+                {
+                    "titulo": "Libro: La llamada de Cthulhu",
+                    "enlace": "https://es.wikipedia.org/wiki/La_llamada_de_Cthulhu",
+                    "imagen": "../../IMG/cineLiteratura/cthulhu.jpg",
+                    "alt": "La llamada de Cthulhu",
+                    "texto": "Un antiguo ser cósmico amenaza la cordura y la existencia de la humanidad."
+                }
+            ]
+        },
+        "paranormal": {
+            "titulo": "PARANORMAL",
+            "descripcion": "El terror paranormal se basa en entidades invisibles, presencias y fuerzas sobrenaturales. Es uno de los subgéneros más inquietantes porque rompe las reglas de la realidad.",
+            "meta_description": "Página del terror paranormal en el ámbito del cine y la literatura.",
+            "titulo_pestana": "Cine y Literatura - Paranormal",
+            "cine": [
+                {
+                    "titulo": "Cine: The Conjuring",
+                    "video_src": "https://www.youtube.com/embed/XB2ngwJDOyA",
+                    "texto": "Investigaciones paranormales basadas en casos reales de los Warren."
+                },
+                {
+                    "titulo": "Cine: Insidious",
+                    "video_src": "https://www.youtube.com/embed/5Z29IDZRYw0",
+                    "texto": "Viajes astrales, demonios y entidades que habitan “El Más Allá”."
+                },
+                {
+                    "titulo": "Cine: El Exorcista",
+                    "video_src": "https://www.youtube.com/embed/riXwihFvMTE",
+                    "texto": "Una de las posesiones demoníacas más icónicas del cine."
+                },
+                {
+                    "titulo": "Cine: Poltergeist",
+                    "video_src": "https://www.youtube.com/embed/dhwLaGmWr_w",
+                    "texto": "Espíritus atrapados en una casa familiar."
+                }
+            ],
+            "literatura": [
+                {
+                    "titulo": "Libro: La leyenda de Sleepy Hollow",
+                    "enlace": "https://es.wikipedia.org/wiki/La_leyenda_de_Sleepy_Hollow",
+                    "imagen": "../../IMG/cineLiteratura/sleepyhollow.jpg",
+                    "alt": "La leyenda de Sleepy Hollow",
+                    "texto": "Un jinete sin cabeza que aterroriza un pequeño pueblo, mezcla de mito y aparición sobrenatural."
+                },
+                {
+                    "titulo": "Libro: Hill House",
+                    "enlace": "https://es.wikipedia.org/wiki/The_Haunting_of_Hill_House_(novela)",
+                    "imagen": "../../IMG/cineLiteratura/hillhouse.jpg",
+                    "alt": "La maldición de Hill House",
+                    "texto": "Una de las casas embrujadas más famosas de la literatura."
+                },
+                {
+                    "titulo": "Libro: La mujer de negro",
+                    "enlace": "https://biblioteca-virtual.fandom.com/es/wiki/La_mujer_de_negro",
+                    "imagen": "../../IMG/cineLiteratura/lamujerdenegro.jpg",
+                    "alt": "La mujer de negro",
+                    "texto": "Un joven abogado descubre una presencia fantasmal en una mansión aislada, desencadenando una serie de sucesos aterradores."
+                },
+                {
+                    "titulo": "Libro: Otra vuelta de tuerca",
+                    "enlace": "https://es.wikipedia.org/wiki/The_Turn_of_the_Screw",
+                    "imagen": "../../IMG/cineLiteratura/turnofthe.jpg",
+                    "alt": "Otra vuelta de tuerca",
+                    "texto": "Ambigüedad entre locura y fantasmas."
+                }
+            ]
+        },
+        "psychological": {
+            "titulo": "PSYCHOLOGICAL",
+            "descripcion": "El terror psicológico se centra en la explotación de los miedos y obsesiones del subconsciente. Es uno de los subgéneros más populares del cine y la literatura.",
+            "meta_description": "Página del terror psicológico en el ámbito del cine y la literatura.",
+            "titulo_pestana": "Cine y Literatura - Psychological",
+            "cine": [
+                {
+                    "titulo": "Cine: Black Swan",
+                    "video_src": "https://www.youtube.com/embed/TnafMJMlblE",
+                    "texto": "Una bailarina cae en una espiral de obsesión, paranoia y pérdida de la realidad mientras busca la perfección artística."
+                },
+                {
+                    "titulo": "Cine: Get Out",
+                    "video_src": "https://www.youtube.com/embed/DzfpyUB60YY",
+                    "texto": "Un joven descubre una inquietante verdad cuando visita a la familia de su novia en una aparente reunión cordial."
+                },
+                {
+                    "titulo": "Cine: The Babadook",
+                    "video_src": "https://www.youtube.com/embed/k5WQZzDRVtw",
+                    "texto": "Una madre y su hijo son atormentados por una presencia oscura surgida de un misterioso libro infantil."
+                },
+                {
+                    "titulo": "Cine: Goodnight Mommy",
+                    "video_src": "https://www.youtube.com/embed/DzSsE5t7JNk",
+                    "texto": "Dos hermanos comienzan a sospechar que la mujer que regresó a casa tras una cirugía no es realmente su madre."
+                }
+            ],
+            "literatura": [
+                {
+                    "titulo": "Libro: La paciente silenciosa",
+                    "enlace": "https://es.wikipedia.org/wiki/La_paciente_silenciosa",
+                    "imagen": "../../IMG/cineLiteratura/paciente-silenciosa.jpg",
+                    "alt": "La paciente silenciosa",
+                    "texto": "Un psicoterapeuta intenta descubrir por qué una mujer dejó de hablar después de asesinar a su esposo."
+                },
+                {
+                    "titulo": "Libro: El psicoanalista",
+                    "enlace": "https://es.wikipedia.org/wiki/El_psicoanalista",
+                    "imagen": "../../IMG/cineLiteratura/psicoanalista.jpg",
+                    "alt": "El psicoanalista",
+                    "texto": "Un reconocido psiquiatra recibe una amenaza que lo obliga a descubrir quién busca destruir su vida."
+                },
+                {
+                    "titulo": "Libro: Misery",
+                    "enlace": "https://es.wikipedia.org/wiki/Misery_(novela)",
+                    "imagen": "../../IMG/cineLiteratura/misery.jpg",
+                    "alt": "Misery",
+                    "texto": "Un escritor queda atrapado en la casa de una admiradora obsesiva tras sufrir un accidente."
+                },
+                {
+                    "titulo": "Libro: El extraño caso del doctor Jekyll y el señor Hyde",
+                    "enlace": "https://es.wikipedia.org/wiki/El_extra%C3%B1o_caso_del_doctor_Jekyll_y_el_se%C3%B1or_Hyde",
+                    "imagen": "../../IMG/cineLiteratura/jekyll-hyde.jpg",
+                    "alt": "Doctor Jekyll y Mr. Hyde",
+                    "texto": "Un científico descubre una forma de separar los aspectos más oscuros de su personalidad, con consecuencias aterradoras."
+                }
+            ]
+        }
+    }
+}
